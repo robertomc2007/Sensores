@@ -4,7 +4,7 @@ int lectura;
 void setup()
 {
 
-//analogReference(INTERNAL);
+//LA REFERENCIA ES 5V
 
 Serial.begin(115200);
 }
