@@ -1,3 +1,7 @@
+/*
+LM35 10mV X °C / 0-100°C
+*/
+
 float tempC;
 int lectura;
 
@@ -12,7 +16,7 @@ Serial.begin(115200);
 void loop()
 {
 lectura = analogRead(A0);
-tempC = (lectura*1.0) / 9.31;
+tempC = (5.0 * lectura * 100.0) / 1024;
 Serial.println(tempC);
 delay(1000);
 }
