@@ -1,5 +1,12 @@
 # Sensores
-Resumenes
+
+## Resumenes
+
+[Categorías](http://www.sensores-de-medida.es/)
+
+[Definiciones](http://robots-argentina.com.ar/Sensores_general.htm)
+
+### Categorías
 
 [Sensores de distancia](https://github.com/jeroendoggen/Arduino-distance-sensor-library)
 
@@ -21,6 +28,3 @@ Sondas de temperatura y humedad
 
 
 
-[Categorías](http://www.sensores-de-medida.es/)
-
-[Definiciones](http://robots-argentina.com.ar/Sensores_general.htm)
