@@ -14,6 +14,6 @@ El funcionamiento se basa, por lo general, en la disposición de un cursor o con
 
 ![ESTRUCTURA](./potenciometro.jpg)
 
-Desde el punto de vista eléctrico, se comporto o es equivalente a un DIVISOR RESISTIVO, cuya proporción de división está una función de la posición del cursor
+Desde el punto de vista eléctrico, se comporta o es equivalente a un DIVISOR RESISTIVO, cuya proporción de división está una función de la posición del cursor
 
-![EQUIVALENCIA](./EQUIVALENCIA_POTE.jpg)
+![EQUIVALENCIA](./EQUIVALENCIA_POTE.jpg) ![ECUACIÓN](./divisor-de-tension.png)
