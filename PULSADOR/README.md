@@ -83,7 +83,7 @@ void setup()
 
   pinMode(ledPin, OUTPUT);      // sets the digital pin 13 as output
   
-  pinMode(inPin, INPUT);      // sets the digital pin 7 as input
+  pinMode(inPin, INPUT);      // sets the digital pin 10 as input
   
 }
 
