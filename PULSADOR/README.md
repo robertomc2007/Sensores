@@ -73,7 +73,7 @@ int val = digitalRead(inPin);   // read the input pin
 
 int ledPin = 13; // LED connected to digital pin 13
 
-int inPin = 10;   // pushbutton connected to digital pin 7
+int inPin = 10;   // pushbutton connected to digital pin 10
 
 int val = 0;     // variable to store the read value
 
