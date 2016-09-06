@@ -8,23 +8,20 @@
 
 ### Categorías
 
+[Sensores de ángulo](.//ANGULAR/) y rotación
+
+Sondas de temperatura y humedad
+
 [Sensores de distancia](https://github.com/jeroendoggen/Arduino-distance-sensor-library)
+
+Sensores de luz
 
 Sensores de aceleración
 
-Sensores de ángulo y rotación
+Sensores de presión
 
 Referencias inerciales	Giróscopos
 
 Sensores de fuerza - Células de carga
 
-Sensores de presión
-
 Sensores acusticos
-
-Sondas de temperatura y humedad
-
-
-
-
-
