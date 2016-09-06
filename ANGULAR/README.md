@@ -6,7 +6,7 @@ Elemento electromecánico que permite ajustar el potencial eléctrico entre 2 de
 
 ![POTENCIÓMETRO](./POTE.jpg)
 
-Los usos pueden ser muy variados y alcanzan tanto la selección manual de una posición, por ejemplo para el control de volumen, intensidad, etc., como para ajustar una posición o ubicación, por ejemplo en un joystick. También se lo emplea como detector de posición en el caso de servomotores.
+Los usos pueden ser muy variados y alcanzan tanto la selección manual de un nivel, por ejemplo para el control de volumen, intensidad de luz, nivel de temperatura, etc., asi como para ajustar una posición o ubicación, por ejemplo en un joystick. También se lo emplea como detector de posición en el caso de servomotores.
 
 ![USOS](./POTE_TIPOS_USOS.jpg)
 
@@ -14,6 +14,12 @@ El funcionamiento se basa, por lo general, en la disposición de un cursor o con
 
 ![ESTRUCTURA](./potenciometro.jpg)
 
-Desde el punto de vista eléctrico, se comporta o es equivalente a un DIVISOR RESISTIVO, cuya proporción de división está una función de la posición del cursor
+Desde el punto de vista eléctrico, se comporta o es equivalente a un DIVISOR DE TENSIÓN DE TIPO RESISTIVO, cuya proporción de división será una función de la posición del cursor.
 
 ![EQUIVALENCIA](./EQUIVALENCIA_POTE.jpg) ![ECUACIÓN](./divisor-de-tension.png)
+
+La relación entre la tensión o voltaje o potenciál eléctrico en los terminales de salida del potenciómetro será una proporción del voltaje de entrada y de la posición del cursor.
+
+![RESPUESTA ANGULAR](./RESPUESTA_ANGULAR.gif)
+
+En general existen 2 tipos de respuesta, a saber: LINEAL o LOGARITMICA.
