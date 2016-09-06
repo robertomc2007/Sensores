@@ -31,7 +31,7 @@ La posición del pulsador se traduce en un estado lógico de entrada HIGH o LOW 
 
 Al conectar la entrada digital a la tensión de alimentación (+5Volt) lo que se representa o lee es el estado lógico "1" o HIGH en la entrada. Al conectar la entrada digital a TIERRA (GND o 0Volt) lo que se representa o lee es el estado lógico "0" o LOW en la entrada.
 
-## [PUERTOS DE ENTRADA SALIDA DIGITAL](https://www.arduino.cc/en/Tutorial/DigitalPins)
+## [PUERTOS DE ENTRADA/SALIDA DIGITAL](https://www.arduino.cc/en/Tutorial/DigitalPins)
 
 Detalle sobre puertos de entrada salida de uso general en el procesador ATMEGA328
 
@@ -62,3 +62,10 @@ digitalWrite(inPin, HIGH);       // turn on pullup resistors
 int val = digitalRead(inPin);   // read the input pin
 
 ...
+
+### PRACTICA: Conectando un pulsador
+
+DIAGRAMA
+
+![PULSA](./Pulsador_bb.jpg)
+
