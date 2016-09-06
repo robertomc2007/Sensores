@@ -10,6 +10,8 @@
 
 ### Casos de uso
 
+[Sensor de posición-pulsador](.//PULSADOR/) (por ejemplo BOTON-PULSADOR: electromecánico salida binaria-TODO/NADA)
+
 [Sensor de movimiento](.//MOVIMIENTO_IR/) (por ejemplo HCSR501: PIR salida binaria-TODO/NADA)
 
 [Sensor de ángulo](.//ANGULAR/) (por ejemplo POTENCIÓMETRO: electromecánico salida analógica)
