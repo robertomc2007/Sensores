@@ -6,7 +6,9 @@
 
 [Aplicaciones](http://www.sensores-de-medida.es/)
 
-### Categorías
+![CLASIFICACIÓN](./CLASIFICACIÓN DE SENSORES.png)
+
+### Casos de uso
 
 [Sensor de movimiento](.//MOVIMIENTO_IR/) (por ejemplo HCSR501 infrarojo tecnología PIR)
 
@@ -18,12 +20,14 @@
 
 [Sensor de luz](.//LUZ/) (por ejemplo BH1750 DIGITAL i2c)
 
-Sensores de aceleración
+Sensor de aceleración
 
-Sensores de presión
+Sensor de presencia/ausencia
 
-Referencias inerciales - Giróscopos
+Sensor de presión
+
+Sensores inerciales - Giróscopos
 
 Sensores de fuerza - Células de carga
 
-Sensores acusticos
+Sensor acustico
