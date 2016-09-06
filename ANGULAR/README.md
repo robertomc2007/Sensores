@@ -32,25 +32,25 @@ DIAGRAMA DE CONEXIÓN
 
 PROGRAMA
 
-int analogPin = 0;     // potentiometer wiper (middle terminal) connected to analog pin 0
+int analogPin = 0;     // Punto medio de potenciometro conectado a entrada A0.
 
-int val = 0;           // variable to store the value read
+int val = 0;           // Variable con el valor digitalizado de la magnitud analogica en A0
 
-void setup()
+void setup() //Seccion de inicializacion. Se ejecuta solo una vez luego del RESET del procesador
 
 {
 
-  Serial.begin(115200);          //  setup serial
+  Serial.begin(115200);  // Inicia comunicacion serie como 115200-8-1-N
 
 }
 
-void loop()
+void loop() //Ejecucion continua
 
 {
 
-  val = analogRead(analogPin);    // read the input pin
+  val = analogRead(analogPin);    // lee el valor analogico y lo digitaliza en 10bits. 0-1023
 
-  Serial.println(val);             // debug value
+  Serial.println(val);             // Mustra en consola serie el valor digitalizado
   
   delay(500);
   
