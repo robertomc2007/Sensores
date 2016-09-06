@@ -4,9 +4,15 @@ Elemento electromecánico destinado a sensar la posición mecánica de un objeto
 
 ## TIPOS
 
+PULSADOR ELECTRÓNICO
+
 ![PULSADOR ELECTRÓNICO](./boton.jpg)
 
+PULSADOR o LLAVE ELÉCTRICA
+
 ![PULSADOR o LLAVE ELÉCTRICA](./pulsadorelectrico.jpg)
+
+FIN DE CARRERA
 
 ![FIN DE CARRERA](./findecarrera.jpg)
 
