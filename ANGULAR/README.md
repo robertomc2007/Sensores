@@ -1,4 +1,4 @@
-#Resumen
+#Resumen SENSOR ANGULAR DE POSICIÓN
 
 ##POTENCIÓMETRO
 
