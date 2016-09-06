@@ -23,3 +23,10 @@ La relación entre la tensión o voltaje o potenciál eléctrico en los terminal
 ![RESPUESTA ANGULAR](./RESPUESTA_ANGULAR.gif)
 
 En general existen 2 tipos de respuesta, a saber: LINEAL o LOGARITMICA.
+
+## PRACTICA: Conexión a una entrada analógica del procesador
+
+DIAGRAMA DE CONEXIÓN
+
+![CONEXION](./pote_bb.jpg)
+
