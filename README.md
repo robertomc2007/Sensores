@@ -10,15 +10,15 @@
 
 ### Casos de uso
 
-[Sensor de movimiento](.//MOVIMIENTO_IR/) (por ejemplo HCSR501 infrarojo tecnología PIR)
+[Sensor de movimiento](.//MOVIMIENTO_IR/) (por ejemplo HCSR501: PIR salida binaria-TODO/NADA)
 
-[Sensor de ángulo](.//ANGULAR/) (por ejemplo POTENCIÓMETRO) y rotación (por ejemplo ENCODER)
+[Sensor de ángulo](.//ANGULAR/) (por ejemplo POTENCIÓMETRO: electromecánico salida analógica)
 
-[Sensor de temperatura](.//TEMPERATURA/) (por ejemplo LM35) y humedad (por ejemplo familia DHTXX)
+[Sensor de temperatura](.//TEMPERATURA/) (por ejemplo LM35: semiconductor salida analógica)
 
-[Sensor de distancia](.//DISTANCIA/) (por ejemplo HCSR04 ULTRASONIDO)
+[Sensor de distancia](.//DISTANCIA/) (por ejemplo HCSR04: eco de pulsos de ultrasonido salida binaria-pulso PWM)
 
-[Sensor de luz](.//LUZ/) (por ejemplo BH1750 DIGITAL i2c)
+[Sensor de luz](.//LUZ/) (por ejemplo BH1750: foto diodo salida digital-protocolo i2c)
 
 Sensor de aceleración
 
