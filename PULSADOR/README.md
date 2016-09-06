@@ -19,13 +19,13 @@ FIN DE CARRERA
 ## FUNCIONAMIENTO
 
 Funciona como una llave o interruptor eléctrico, permitiendo o impidiendo la circulación de corriente eléctrica a través de él 
-en función de la posición de un contacto movido mecánicamente.
+en función de la posición de un contacto eléctrico movido mecánicamente.
 
 ![CIRCUITO ELÉCTRICO](./circuitoelectricosimple.jpg)
 
 ## CONEXIÓN AL MICROCONTROLADOR
 
-La posición del pulsador se traduce en un estado lógico de entrada HIGH o LOW según el potencial eléctrico en una de las conexiones o terminales digitales del controlador.
+La posición del pulsador se traduce en un estado lógico de entrada HIGH ("1") o LOW ("0") según el potencial eléctrico aplicado en una de las conexiones o terminales digitales del controlador, comunmente llamado "pin".
 
 ![CONEXION ENTRADA DIGITAL](./arduino-pulsador-pup_pdown.png)
 
@@ -35,13 +35,13 @@ Al conectar la entrada digital a la tensión de alimentación (+5Volt) lo que se
 
 Detalle sobre puertos de entrada salida de uso general en el procesador ATMEGA328
 
-Section 4.1 I/O port pins and their functions
+"Section 4.1 I/O port pins and their functions
 
 • The ATmega328P has 23 General Purpose Digital I/O Pins assigned to 3 Ports (8-bit Ports B, D and 7-bit Port C)
 • Each I/O port pin may be configured as an output with symmetrical drive characteristics. Each pin driver is strong enough (20 mA) to drive LED displays directly.
 ### • Each I/O port pin may be configured as an input with or without a pull-up resistors. The values for the pull up resistors can range from 20 - 50 K ohms.
 
-• Each I/O pin has protection diodes to both VCC and Ground
+• Each I/O pin has protection diodes to both VCC and Ground"
 
 ![GPIO](./detalle_gpio_atmega328.png)
 
