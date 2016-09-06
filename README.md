@@ -8,19 +8,19 @@
 
 ### Categorías
 
-[Sensores de ángulo](.//ANGULAR/) y rotación
+[Sensores de ángulo](.//ANGULAR/) (por ejemplo POTENCIÓMETRO) y rotación (por ejemplo ENCODER)
 
-Sondas de temperatura y humedad
+[Sensores de temperatura](.//TEMPERATURA/) (por ejemplo LM35) y humedad (por ejemplo familia DHTXX)
 
-[Sensores de distancia](https://github.com/jeroendoggen/Arduino-distance-sensor-library)
+[Sensores de distancia](.//DISTANCIA/) (por ejemplo HCSR04 ULTRASONIDO)
 
-Sensores de luz
+[Sensores de luz](.//LUZ/) (por ejemplo BH1750 DIGITAL i2c)
 
 Sensores de aceleración
 
 Sensores de presión
 
-Referencias inerciales	Giróscopos
+Referencias inerciales - Giróscopos
 
 Sensores de fuerza - Células de carga
 
