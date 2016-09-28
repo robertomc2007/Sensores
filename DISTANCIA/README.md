@@ -35,6 +35,13 @@ Echo (Eco o Recepción del ultrasonido)
 
 GND
 
+##Funcionamiento
+
+El módulo dispone de emisor y receptor de ultrasonido, así como los circuitos para enviar un sonido de alta frecuencia y amplificar la recepción del eco. Esta recepción es acondicionada como una salida de estado binario de tiempo variable. El tiempo del pulso de salida es proporcional al tiempo de retorno del sonido emitido.
+
+El siguiente diagrama de señales en el tiempo resume el proceso
+
+![TIEMPOS](./Diagrama-de-tiempo-HC-SR04.png)
 
 ###Ecuación de conversión
 
