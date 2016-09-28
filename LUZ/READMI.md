@@ -41,7 +41,7 @@ Voltaje de alimentación desde 3.3v hasta 5v
 
 Diagrama de interconexión de dispositivos compatibles con I2C
 
-![](./i2c.jpg)
+![](./I2C.jpg)
 
 Diagrama temporal del protocolo I2C
 
