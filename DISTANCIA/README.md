@@ -4,6 +4,8 @@
 
 El HC-SR04 es un sensor de distancias por ultrasonidos capaz de detectar objetos y calcular la distancia a la que se encuentra en un rango de 2 a 450 cm. El sensor funciona por ultrasonidos y contiene toda la electrónica encargada de hacer la medición. Su uso es tan sencillo como enviar el pulso de arranque y medir el ancho o duración del pulso de retorno. De muy pequeño tamaño, el HC-SR04 se destaca por su bajo consumo, gran precisión y bajo precio.
 
+![SR04](./HCSR04.jpg)
+
 ##Características
 
 Dimensiones del circuito: 43 x 20 x 17 mm
