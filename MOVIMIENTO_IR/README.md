@@ -10,9 +10,9 @@ La diferencia entre las energías que inciden en cada uno de los sensores es amp
 
 El módulo HC-SR501 tiene 3 pines de conexión +5v, OUT y GND, dos resistencias variables de calibración (2 y 3) y un puente de ajuste (1).
 
-2: Con esta resistencia podemos establecer el tiempo que se va a mantener activa la salida del sensor. El tiempo mínimo que se puede establecer es de más o menos 3s.
+3: Con esta resistencia podemos establecer el tiempo que se va a mantener activa la salida del sensor. El tiempo mínimo que se puede establecer es de más o menos 3s.
 
-3: Esta resistencia variable nos permite establecer la sensibilidad, o sea, la distancia de detección; puede variar entre 3-7m.
+2: Esta resistencia variable nos permite establecer la sensibilidad, o sea, la distancia de detección; puede variar entre 3-7m.
 
 1: Este puente permite elegir el redisparo del tiempo de activación o no.
 
