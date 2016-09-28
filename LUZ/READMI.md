@@ -39,6 +39,20 @@ Voltaje de alimentación desde 3.3v hasta 5v
 
 ##Interfaz digital I2C
 
-A4 (SDA), A5 (SCL)
+Diagrama de interconexión de dispositivos compatibles con I2C
+
+![](./i2c.jpg)
+
+Diagrama temporal del protocolo I2C
+
+![](./i2c.png)
+
+##PRÁCTICA: Medición de intensidad de luz en LUX (Luxómetro)
+
+DIAGRAMA DE CONEXIONES
+
+La asignación de terminales en ARDUINO es: A4 (SDA) A5 (SCL)
+
+PROGRAMA
 
 [LIBRERIA](https://github.com/Genotronex/BH1750FVI_Master)
