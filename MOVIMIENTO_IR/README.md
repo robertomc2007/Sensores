@@ -26,7 +26,7 @@ Rango de detección: 3 m a 7 m, ajustable mediante trimmer (Sx)
 
 Lente fresnel de 19 zonas, ángulo < 100º
 
-Salida activa alta a VCC
+Salida activa alta
 
 Tiempo en estado activo de la salida configurable mediante trimmer (Tx)
 
