@@ -13,7 +13,7 @@ Serial.begin(115200);
 void loop()
 {
 lectura = analogRead(A0);
-tempC = lectura / 9.31;
+tempC = lectura / 9.3;
 Serial.println(tempC);
 delay(1000);
 }
