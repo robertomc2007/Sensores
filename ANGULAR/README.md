@@ -24,7 +24,7 @@ La relación entre la tensión o voltaje o potenciál eléctrico en los terminal
 
 En general existen 2 tipos de respuesta, a saber: LINEAL o LOGARITMICA.
 
-## PRACTICA: Conexión a una entrada analógica del procesador
+## PRACTICA: Sensar posición
 
 DIAGRAMA DE CONEXIÓN
 
