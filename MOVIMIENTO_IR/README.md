@@ -1,1 +1,3 @@
-#Resumen SENSOR DE MOVIMIENTO POR RADIACIÓN INFRARROJA
+#Resumen SENSOR DE MOVIMIENTO
+
+##Sensor de movimiento por radiación infrarroja
