@@ -22,9 +22,15 @@ La conversión termina en un registro de 10bits, lo que permite obtener un núme
 
 ![CUANTIFICA](./Gráfica comparativa 3 y 16 bits.png)
 
-Los valores analógicos en las entradas tienen un rango máximo de voltaje de entre 0V y el valor de la tensión de alimentación del procesador; en nuestro caso es 5Volt.
+Los valores de voltaje en las entradas tienen un rango máximo de entre 0V y el valor de la tensión de alimentación del procesador; en nuestro caso es 5Volt.
 
-No obstante, hay una referencia o voltaje de referencia, la cual debe ser muy estable, que permite asegurar bajos niveles de error en la conversión. Este valor de referencia es provisto por un circuito interno al procesador y es programable. Así el valor de la conversión obtendrá su máximo valor (1023) cuando el voltaje en la entrada analógica alcance el doble del valor de la referencia. Por defecto, la referencia es interna al procesador y tiene un valor de 2,5Volt.
+##analogReference(DEFAULT);
+
+No obstante, hay una referencia o voltaje de referencia, la cual debe ser muy estable, que permite asegurar bajos niveles de error en la conversión. Este valor de referencia es provisto por un circuito interno al procesador y es programable. Así el valor de la conversión obtendrá su máximo valor (1023) cuando el voltaje en la entrada analógica alcance el valor de la referencia. Por defecto, la referencia es interna al procesador y tiene un valor de 5Volt para procesadores alimentados con 5Volt. 
+
+##analogReference(INTERNAL);
+
+Si la estabilidad o el rango de las magnitudes analógicas lo requieren, entonces puede elegirse por programa una fuente interna de referencia de 1,1Volt con estabilidad térmica mejorada (100ppm/°C).  En este caso, para obtener la lectura máxima del registro de conversión (1023) el voltaje de entrada debe ser de 1,1Volt. 
 
 ##PRÁCTICA: Conexión a una entrada analógica del procesador
 
