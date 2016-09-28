@@ -40,7 +40,7 @@ No obstante, hay una referencia o voltaje de referencia, la cual debe ser muy es
 
 Si la estabilidad o el rango de las magnitudes analógicas lo requieren, entonces puede elegirse por programa una fuente interna de referencia de 1,1Volt con estabilidad térmica mejorada (100ppm/°C).  En este caso, para obtener la lectura máxima del registro de conversión (1023) el voltaje de entrada debe ser de 1,1Volt. 
 
-##PRÁCTICA: Conexión a una entrada analógica del procesador
+##PRÁCTICA: Medición de temperatura
 
 DIAGRAMA
 
