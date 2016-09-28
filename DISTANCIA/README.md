@@ -23,7 +23,7 @@ Duración del pulso eco de salida (nivel TTL): 100-25000 μS.
 Tiempo mínimo de espera entre una medida y el inicio de otra 20 mS.
 
 
-Pines de conexión:
+###Pines de conexión:
 
 VCC (+5 Volt)
 
@@ -34,7 +34,7 @@ Echo (Eco o Recepción del ultrasonido)
 GND
 
 
-Ecuación de conversión
+###Ecuación de conversión
 
-Distancia = {(Tiempo entre Trig y el Echo) * (V.Sonido 340 m/s)}/2
+Distancia = {(Tiempo entre Trig y el Eco) * (V.Sonido 340 m/s)}/2
 
