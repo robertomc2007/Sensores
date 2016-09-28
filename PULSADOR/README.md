@@ -49,6 +49,8 @@ Detalle sobre puertos de entrada salida de uso general en el procesador ATMEGA32
 
 ...
 
+OPCION 1) 
+
 // Designar inPin como ENTRADA DIGITAL. inPin=NUMERO ASIGNADO 0-13 (-18*)
 
 pinMode(inPin, INPUT);           // set pin to input
@@ -57,19 +59,23 @@ pinMode(inPin, INPUT);           // set pin to input
 
 digitalWrite(inPin, HIGH);       // turn on pullup resistors
 
+OPCION 2)
+
+pinMode(inPin, INPUT_PULLUP); 
+
 //lectura del estado del pin designado como entrada digital
 
 int val = digitalRead(inPin);   // read the input pin
 
 ...
 
-### PRACTICA: Conectando un pulsador
+## PRACTICA: Cambiar el estado de una salida
 
-## DIAGRAMA
+### DIAGRAMA
 
 ![PULSA](./Pulsador_bb.jpg)
 
-## PROGRAMA
+### PROGRAMA
 
 int ledPin = 13; // LED connected to digital pin 13
 
@@ -83,7 +89,7 @@ void setup()
 
   pinMode(ledPin, OUTPUT);      // sets the digital pin 13 as output
   
-  pinMode(inPin, INPUT);      // sets the digital pin 10 as input
+  pinMode(inPin, INPUT_PULLUP);      // sets the digital pin 10 as input
   
 }
 
