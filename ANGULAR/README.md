@@ -50,7 +50,7 @@ void loop() //Ejecucion continua
 
   val = analogRead(analogPin);    // lee el valor analogico y lo digitaliza en 10bits. 0-1023
 
-  Serial.println(val);             // Mustra en consola serie el valor digitalizado
+  Serial.println(val);             // Musetra o grafica el valor digitalizado
   
   delay(500);
   
