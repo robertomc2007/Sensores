@@ -10,7 +10,6 @@ El rango de medición de temperaturas para una alimentación simple va desde 0°
 
 No requiere de calibración externa y en el rango de la temperatura ambiente, su presición es del orden de 0,25°C.
 
-
 Por definición del fabricante, la salida del sensor responde a la siguiente ecuación:
 
 Temperatura en °C = voltajesalidaLM35_mv / 10
@@ -25,7 +24,7 @@ Para la medición de la magnitud analógica de salida del sensor LM35 se usará 
 
 ![ADC](./adc.gif)
 
-La conversión termina en un registro de 10bits, lo que permite obtener un número entre 0 (0X0) y 1023 (0x3FF), que representa una aproximación del valor analógico en uno de los terminales o pines designados como entrada del módulo ADC. Se dice que es una aproximación porque los procesos de conversión digital cuantifican la magnitud de entrada. En nuestro caso, esta cuantificación es de 10bits como máximo.
+La conversión termina en un registro de 10bits, lo que permite obtener un número entre 0 (0X0) y 1023 (0x3FF), que representa una aproximación del valor analógico en uno de los terminales o pines designados como entrada del módulo ADC. Se dice que es una aproximación porque los procesos de conversión digital cuantifican la magnitud de entrada. En nuestro caso, esta cuantificación es de 10bits como máximo. Luego la cuantificación será de 1024 niveles distintos, es decir, entre los valores 0 y 1023. Valores analógicos intermedios a estos niveles de cuantificación no son medibles y forman parte del error total en el proceso de conversión.
 
 Por ejemplo, si el potencial de entrada del terminal designado como A3 fuera de 0 Volt, el resultado de la conversión sería "0". Si el potencial de entrada fuera 2,5 Volt la conversión arrojaría un valor del orden de 511 y si fuera el valor analógico de 5 Volt, la conversión sería un valor de 1023.
 
