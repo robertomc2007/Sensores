@@ -7,20 +7,32 @@ El HC-SR04 es un sensor de distancias por ultrasonidos capaz de detectar objetos
 ##Características
 
 Dimensiones del circuito: 43 x 20 x 17 mm
+
 Tensión de alimentación: 5 Vcc
+
 Frecuencia de trabajo: 40 KHz
+
 Rango máximo: 4.5 m
+
 Rango mínimo: 1.7 cm
+
 Duración mínima del pulso de disparo (nivel TTL): 10 μS.
+
 Duración del pulso eco de salida (nivel TTL): 100-25000 μS.
+
 Tiempo mínimo de espera entre una medida y el inicio de otra 20 mS.
+
 
 Pines de conexión:
 
 VCC (+5 Volt)
+
 Trig (Disparo del ultrasonido)
+
 Echo (Eco o Recepción del ultrasonido)
+
 GND
+
 
 Ecuación de conversión
 
