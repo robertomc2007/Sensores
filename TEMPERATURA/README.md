@@ -32,18 +32,28 @@ DIAGRAMA
 
 PROGRAMA
 
-#define sensorPin A0
+int sensorPin=0;
  
 void setup()
+
 {
-  Serial.begin(9600);
+
+  Serial.begin(115200);
+  
 }
  
 void loop()
+
 {
+
   int value = analogRead(sensorPin);
+  
   float millivolts = (value / 1023.0) * 5000;
+  
   float celsius = millivolts / 10; 
+  
   Serial.println(celsius);
+  
   delay(1000);
+  
 }
