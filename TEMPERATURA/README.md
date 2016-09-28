@@ -40,8 +40,6 @@ DIAGRAMA
 
 PROGRAMA
 
-int sensorPin=0;
- 
 void setup()
 
 {
@@ -54,7 +52,7 @@ void loop()
 
 {
 
-  int value = analogRead(sensorPin);
+  int value = analogRead(A0);
   
   float millivolts = (value / 1023.0) * 5000;
   
