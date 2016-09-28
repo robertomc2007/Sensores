@@ -47,9 +47,11 @@ El siguiente diagrama de señales en el tiempo resume el proceso
 
 Distancia = {(Tiempo entre Trig y el Eco) * (V.Sonido 340 m/s)}/2
 
-#PRACTICA: Conexión para medición de distancia
+#PRACTICA: Medición de distancia
 
 DIAGRAMA DE CONEXIÓN
+
+![ULTRASONIDO](./ultrasonido_bb.jpg)
 
 PROGRAMA
 
