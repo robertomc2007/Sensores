@@ -3,9 +3,19 @@
 
 ##Sensor digital de luz BH1750
 
+Módulo para la medición de la intensidad de luz, generalmente aplicado en medición de luz ambiente. Contiene el circuito integrado especializado y otros componentes de interfaz.
 
+El control y salida de datos es por medio de una interfaz de interconexión denominada I2C que permite configurar una verdadera red de dispositivos, tanto en el modo Maestro / Esclavo como Multi-Maestro / Multi-Esclavo. 
 
 ![](./bh1750.jpg)
+
+###Diagrama en bloques
+
+![](./bh1750_block.jpg)
+
+###Comandos
+
+![](./bh1750_instrucciones.jpg)
 
 ###Caracteristicas Técnicas
 
@@ -27,7 +37,7 @@ La influencia del espectro infrarojo es baja.
 
 Voltaje de alimentación desde 3.3v hasta 5v
 
-##Salida digital I2C
+##Interfaz digital I2C
 
 A4 (SDA), A5 (SCL)
 
