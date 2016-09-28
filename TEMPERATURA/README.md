@@ -36,6 +36,8 @@ Si la estabilidad o el rango de las magnitudes analógicas lo requieren, entonce
 
 DIAGRAMA
 
+![CONEXIONES](./lm35_bb.jpg)
+
 PROGRAMA
 
 int sensorPin=0;
