@@ -13,6 +13,8 @@ El control y salida de datos es por medio de una interfaz de interconexión deno
 
 ![](./bh1750_block.jpg)
 
+De manera inversa al proceso de generación de luz en un LED, una juntura semiconductora es capaz de generar una corriente eléctrica en función de la cantidad y energía de los fotones que inciden sobre ella. En este caso el semiconductor se denomina FOTODIODO y la corriente que genera es acumulada o integrada en un lapso fijo. Cumplido el tiempo de integración, la tensión de salida del amplificador A es directamente proporcional a la cantidad de luz en la ventana de tiempo. El voltaje es convertido a magnitud digital por el conversor A/D de 16 bits integrado y dispuesto para ser leido por medio de la interfaz I2C. El bloque de control acepta, por ejemplo, comandos para la operación en diferentes condiciones de sensibilidad así como en modos de operación continua o de solo una vez.
+
 ###Comandos
 
 ![](./bh1750_instrucciones.jpg)
