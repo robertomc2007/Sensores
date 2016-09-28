@@ -10,15 +10,24 @@ El rango de medición de temperaturas para una alimentación simple va desde 0°
 
 No requiere de calibración externa y en el rango de la temperatura ambiente, su presición es del orden de 0,25°C.
 
+
+Por definición del fabricante, la salida del sensor responde a la siguiente ecuación:
+
+Temperatura en °C = voltajesalidaLM35_mv / 10
+
+Luego si la temperatura del componente fuera de 21,5 °C, el terminal de salida del LM35 debe estar a un potencial de 215 mVolt, o sea, 0,215 Volt.
+
 ![LM35](./LM35.png)
 
 ##Uso del conversor A/D (Analógico a Digital) del procesador
 
-Para la medición de magnitudes analógicas se usará el módulo "ADC" interno al procesador.
+Para la medición de la magnitud analógica de salida del sensor LM35 se usará el módulo "ADC" interno al procesador.
 
 ![ADC](./adc.gif)
 
 La conversión termina en un registro de 10bits, lo que permite obtener un número entre 0 (0X0) y 1023 (0x3FF), que representa una aproximación del valor analógico en uno de los terminales o pines designados como entrada del módulo ADC. Se dice que es una aproximación porque los procesos de conversión digital cuantifican la magnitud de entrada. En nuestro caso, esta cuantificación es de 10bits como máximo.
+
+Por ejemplo, si el potencial de entrada del terminal designado como A3 fuera de 0 Volt, el resultado de la conversión sería "0". Si el potencial de entrada fuera 2,5 Volt la conversión arrojaría un valor del orden de 511 y si fuera el valor analógico de 5 Volt, la conversión sería un valor de 1023.
 
 ![CUANTIFICA](./Gráfica comparativa 3 y 16 bits.png)
 
@@ -52,11 +61,13 @@ void loop()
 
 {
 
-  int value = analogRead(A0);
+// °C = voltajesalidaLM35_mv / 10
+
+  int voltajesalidaLM35_digitalizada = analogRead(A0); // A0 = voltajesalidaLM35_mv
   
-  float millivolts = (value / 1023.0) * 5000;
+  float voltajesalidaLM35_mv = (voltajesalidaLM35_digitalizada / 1023.0) * 5000; // 5 Volt = 5000 mVolts
   
-  float celsius = millivolts / 10; 
+  float celsius = voltajesalidaLM35_mv / 10;
   
   Serial.println(celsius);
   
