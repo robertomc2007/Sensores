@@ -103,4 +103,80 @@ void loop()
   
 }
 
+##PRÁCTICA: Ruido eléctrico en contactos - DEBOUNCING
+
+###PROGRAMA
+
+byte datos[100];
+
+void setup() {
+
+  // put your setup code here, to run once:
+  
+  Serial.begin(115200);
+  
+  Serial.println("INICIO");
+
+  pinMode(8, INPUT_PULLUP);
+  
+  pinMode(13, OUTPUT);
+
+}
+
+void loop() {
+
+  // put your main code here, to run repeatedly:
+  
+  Serial.println("\r\nBOTON ABIERTO");
+  
+  while (digitalRead(8))
+  {
+    ;
+  }
+
+  for (byte i = 0; i < 100; i++)
+  
+  {
+  
+    datos[i] = digitalRead(8);
+    
+  }
+
+  for (byte i = 0; i < 100; i++)
+  
+  {
+  
+    Serial.print(datos[i]);
+    
+    delay(10);
+    
+  }
+
+  Serial.println("\n\rBOTON CERRADO");
+  
+  while (!digitalRead(8))
+  {
+    ;
+  }
+
+  for (byte i = 0; i < 100; i++)
+  
+  {
+  
+    datos[i] = digitalRead(8);
+    
+  }
+
+  for (byte i = 0; i < 100; i++)
+  
+  {
+  
+    Serial.print(datos[i]);
+    
+    delay(10);
+    
+  }
+  
+}
+
 [LIBRERIA RBD](https://github.com/alextaujenis/RBD_Button)
