@@ -129,7 +129,7 @@ void loop() {
   
   Serial.println("\r\nBOTON ABIERTO");
   
-  while (digitalRead(8))
+  while (digitalRead(8) == HIGH)
   {
     ;
   }
@@ -154,7 +154,7 @@ void loop() {
 
   Serial.println("\n\rBOTON CERRADO");
   
-  while (!digitalRead(8))
+  while (digitalRead(8) == LOW)
   {
     ;
   }
