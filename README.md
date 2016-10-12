@@ -1,6 +1,6 @@
 # RESUMEN Sensores
 
-## MAGNITUDES FÍSICAS
+## FENÓMENOS Y MAGNITUDES FÍSICAS
 
 Luz (con su gama de espectro: visible, infrarroja, ultravioleta)
 
