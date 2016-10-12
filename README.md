@@ -1,10 +1,28 @@
-# Sensores
+## RESUMEN Sensores
 
-## Resumenes
+# MAGNITUDES FÍSICAS
 
-[Definiciones](http://robots-argentina.com.ar/Sensores_general.htm)
+Luz (con su gama de espectro: visible, infrarroja, ultravioleta)
 
-[Aplicaciones](http://www.sensores-de-medida.es/)
+Sonido y ultrasonido
+
+Gravedad (inclinación, posición)
+
+Temperatura
+
+Humedad
+
+Presión y/o fuerza
+
+Velocidad
+
+Magnetismo
+
+Ubicación
+
+Proximidad
+
+Distancia
 
 ![CLASIFICACIÓN](./CLASIFICACIÓN DE SENSORES.png)
 
@@ -33,3 +51,9 @@ Sensores inerciales - Giróscopos
 Sensores de fuerza - Células de carga
 
 Sensor acustico
+
+# Otras Referencias
+
+[Definiciones](http://robots-argentina.com.ar/Sensores_general.htm)
+
+[Aplicaciones](http://www.sensores-de-medida.es/)
