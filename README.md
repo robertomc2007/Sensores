@@ -1,6 +1,6 @@
-## RESUMEN Sensores
+# RESUMEN Sensores
 
-# MAGNITUDES FÍSICAS
+## MAGNITUDES FÍSICAS
 
 Luz (con su gama de espectro: visible, infrarroja, ultravioleta)
 
@@ -23,6 +23,8 @@ Ubicación
 Proximidad
 
 Distancia
+
+## CLASIFICACIÓN
 
 ![CLASIFICACIÓN](./CLASIFICACIÓN DE SENSORES.png)
 
