@@ -1,4 +1,4 @@
-#Resumen SENSOR DE TEMPERATURA
+#Resumen SENSOR DE TEMPERATURA Y HUMEDAD
 
 ##Sensor Digital DHT11
 
